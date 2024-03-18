@@ -1,0 +1,29 @@
+@import url(https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --green: #58CC02 !important;
+    --white: #F7F7F7 !important;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+h1 {
+    font-family: "Feather Bold", serif;
+    font-size: 3.125rem;
+}
+
+.bg-primary {
+    background-color: var(--green)!important; 
+}
+  
+.text-white {
+    color: var(--white)!important;
+}
+
+#hero-subtext {
+    font-weight: 600;
+    font-size: 1.875rem;
+}
