@@ -1,0 +1,208 @@
+@import url(https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --green: #58CC02 !important;
+    --white: #F7F7F7 !important;
+    --purple: #CE82FF !important;
+    --orange: #FF9600 !important;
+    --tinted-yellow: #BC6E00 !important;
+    --black: #4B4B4B !important;
+    --lime: #89E219 !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    color: var(--black);
+}   
+
+h1, h2, h3, h4 {
+    font-family: "Feather Bold", serif;
+}
+
+header {
+    height: 64px;
+    width: 100%;
+    background-color: var(--white);
+    position: sticky;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li, header h1{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--green);
+}
+
+#hero {
+    background-color: var(--green);
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: left;
+}
+
+#hero-text {
+    width: 50%;
+}
+
+#hero-text h1{
+    font-size: 4em;
+}
+
+#hero-text p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.arrow{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 100px;
+}
+
+#about-text {
+    width: 50%;
+    margin-right: 50px;
+    width: 580px;
+}
+
+#about-text h2{
+    font-size: 30px;
+}
+
+#about-text p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+#about img {
+    border-radius: 50%;
+}
+
+.green-text {
+    color: var(--green);
+}
+
+.purple-text {
+    color: var(--purple);
+}
+
+.orange-text {
+    color: var(--orange);
+}
+
+.tinted-yellow-text {
+    color: var(--tinted-yellow);
+}
+
+#projects {
+    text-align: center;
+}
+
+#projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    padding: 30px 200px;
+}
+
+#projects h2{
+    font-size: 30px;
+}
+
+#project-container {
+    width: 400px;
+    height: 450px;
+    overflow: hidden;
+    border: 5px solid var(--orange);
+    border-radius: 25px;
+}
+
+#project-container img {
+    max-width: 100%;
+    height: 197px;
+    object-fit: cover;
+    display: block;
+}
+
+.date {
+    padding: 2px 6px;
+    margin: 10px 80px;
+    background-color: rgba(255, 200, 0 ,50%);
+    border-radius: 5px;
+}
+
+#project-container h4{
+    font-size: 20px;
+    color: var(--black);
+}
+
+#project-container p {
+    text-align: left;
+    margin: 10px 20px;
+}
+
+#contact {
+    text-align: center;
+    margin: 20px;
+}
+
+#contact h2 {
+    color: var(--lime);
+    font-size: 30px;
+}
+
+#contact p {
+    color: var(--black);
+    font-size: 20px;
+    margin: 0px 650px;
+    text-align: left;
+    margin-top: 19px;
+}
+
+#social-link {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 19px;
+}
+
+#contact-img {
+    margin-top: 38px;
+}
