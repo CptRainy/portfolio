@@ -16,6 +16,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Nunito", sans-serif;
     color: var(--black);
@@ -53,6 +57,10 @@ ul li {
 ul li a {
     text-decoration: none;
     color: var(--green);
+}
+
+ul li a:hover {
+    color: var(--black);
 }
 
 #hero {
@@ -95,8 +103,8 @@ ul li a {
 
 #about-text {
     width: 50%;
-    margin-right: 50px;
-    width: 580px;
+    margin-right: 70px;
+    width: 870px;
 }
 
 #about-text h2{
@@ -105,7 +113,7 @@ ul li a {
 
 #about-text p{
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 21px;
     line-height: 25px;
     font-weight: 500;
 }
@@ -144,6 +152,8 @@ ul li a {
 
 #projects h2{
     font-size: 30px;
+    color: var(--orange);
+    padding-top: 25px;
 }
 
 #project-container {
@@ -180,7 +190,7 @@ ul li a {
 
 #contact {
     text-align: center;
-    margin: 20px;
+    margin: 20px; 
 }
 
 #contact h2 {
